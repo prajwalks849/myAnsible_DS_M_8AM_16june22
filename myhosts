@@ -12,4 +12,10 @@
 172.31.87.55
 172.31.93.24
 
+[testgroup]
+server01 java8
+server02 java8
+server03 java8
+server04 java11
+server05 java8
 
