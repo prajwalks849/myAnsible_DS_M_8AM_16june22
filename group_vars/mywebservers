@@ -1,5 +1,4 @@
 ---
-
 myvariable: value
 mywebpackonubuntu: apache2
 mywebpackonredhat: httpd
