@@ -7,3 +7,6 @@
       name: "{{myjavapackonubuntu}}"
       state: present
     when: ansible_os_family =="Debian"
+  - name: "{{myjavapackonRedHat}}"
+    state: present
+    when: ansible_os_family =="RedHat"  
