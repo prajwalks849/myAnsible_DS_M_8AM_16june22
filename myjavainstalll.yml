@@ -7,5 +7,10 @@
       name: "{{myjavapackonubuntu}}"
       state: present
     when: ansible_os_family =="Debian"
+  - name: install java on redhat nodes
+    yum:
+      name: "{{myjavapackonRedHat}}"
+      state: present
+    when: ansible_os_family =="RedHat"  
     
      
