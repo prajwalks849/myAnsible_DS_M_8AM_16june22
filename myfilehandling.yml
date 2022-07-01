@@ -18,12 +18,7 @@
     template:
       src: myindexfile.j2
       dest: /var/www/html/index.html  
-
-  - name: download remote file
-    get_url:
-       url: https://pixabay.com/photos/tree-sunset-clouds-sky-silhouette-736885/
-       dest: /home/ubuntu/mystaticfile
-       force_basic_auth: yes  
+  
   handlers:
   - name: restartwebserver
     systemd:
